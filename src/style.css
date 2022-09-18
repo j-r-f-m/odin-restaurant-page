@@ -71,14 +71,16 @@ header {
 	grid-row: 1 / 2;
 }
 
+.name-restaurant {
+	margin-left: 3.0rem;
+	margin-right: 10rem;
+}
+
 header, ul {
 	display: flex;
 	align-items: center;
-	justify-content: center;
-	
+	justify-content: space-between;
 }
-
-
 
 article {
 	grid-column: 1 / 13;
@@ -90,7 +92,7 @@ article {
 }
 
 .heading-description {
-	grid-column: 2 / 7;
+	grid-column: 2 / 5;
 	grid-row: 4 / 5;
 }
 
@@ -108,34 +110,63 @@ article > p {
 
 /* --------------------------- Styling ------------------- */
 
-h1 {
-    color: red;
-}
 
+/* 
 header, article, footer, .name-restaurant, li {
 	border: 5px solid purple
-}
+} */
 
-li {
+a {
 	padding: 1.5rem;
 	margin: 2rem 2rem 2rem 2rem;
+	text-align: center;
+	width: 4rem;
+
+	font-weight: 700;
+	font-size: 1.5rem;
+}
+
+a:hover, a:focus {
+	background-color: #FADA5E;
+	color: black;
 }
 
 .name-restaurant {
 	padding: 1.5rem;
-	margin-left: 5rem;
-	margin-right: 7rem;
-	width: 5rem; 
+
+	width: 10rem; 
+
+	font-weight: 700;
+	font-size: 1.5rem;
+}
+
+.heading-description {
+	align-self: center;
+	font-size: 2rem;
+	font-weight: 700;
 }
 
 body {
 	background-position: center;
 	background-size: cover;
 	background-repeat: no-repeat;
+	color: whitesmoke;
 }
+
+.footer {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+
 
 
 /* ------------------------- Font ------------------------------------- */
 body {
 	font-family: 'Roboto';
+}
+
+.name-restaurant {
+	text-align: center;
 }
