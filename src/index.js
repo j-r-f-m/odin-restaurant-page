@@ -1,8 +1,17 @@
-import './style.css'
+import './style.css';
 
-import { testHome, homePage } from './home.js';
+import { testHome, home } from './home.js';
+import { foodPage } from './food.js';
+import { createHeader, createFooter } from './headerFooter.js'
 
 
 
-homePage();
-//testHome();
+
+
+(() => {
+    testHome();
+    home();
+    createHeader();
+    createFooter();
+    //testHome();
+})();
