@@ -22,7 +22,7 @@ __webpack_require__.r(__webpack_exports__);
 var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default()((_node_modules_css_loader_dist_runtime_sourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default()));
 ___CSS_LOADER_EXPORT___.push([module.id, "@import url(https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap);"]);
 // Module
-___CSS_LOADER_EXPORT___.push([module.id, "/* -----------------RESET----------------------------- */\n/* http://meyerweb.com/eric/tools/css/reset/ \n   v2.0 | 20110126\n   License: none (public domain)\n*/\n\nhtml, body, div, span, applet, object, iframe,\nh1, h2, h3, h4, h5, h6, p, blockquote, pre,\na, abbr, acronym, address, big, cite, code,\ndel, dfn, em, img, ins, kbd, q, s, samp,\nsmall, strike, strong, sub, sup, tt, var,\nb, u, i, center,\ndl, dt, dd, ol, ul, li,\nfieldset, form, label, legend,\ntable, caption, tbody, tfoot, thead, tr, th, td,\narticle, aside, canvas, details, embed, \nfigure, figcaption, footer, header, hgroup, \nmenu, nav, output, ruby, section, summary,\ntime, mark, audio, video {\n\tmargin: 0;\n\tpadding: 0;\n\tborder: 0;\n\tfont-size: 100%;\n\tfont: inherit;\n\tvertical-align: baseline;\n}\n/* HTML5 display-role reset for older browsers */\narticle, aside, details, figcaption, figure, \nfooter, header, hgroup, menu, nav, section {\n\tdisplay: block;\n}\nbody {\n\tline-height: 1;\n}\nol, ul {\n\tlist-style: none;\n}\nblockquote, q {\n\tquotes: none;\n}\nblockquote:before, blockquote:after,\nq:before, q:after {\n\tcontent: '';\n\tcontent: none;\n}\ntable {\n\tborder-collapse: collapse;\n\tborder-spacing: 0;\n}\n/* --------------------------------------------------------- */\n\n\n\n#content {\n\theight: 100vh;\n}\n\n/* -----------------------------Layout--------------------- */\n\n#content {\n    display: grid;\n    grid-template-columns: repeat(12, [col-start]1fr) ;\n\tgrid-template-rows: repeat(12, [row-start] 1fr) ;\n}\n\nheader {\n\tgrid-column: 1 / 13;\n\tgrid-row: 1 / 2;\n}\n\n.name-restaurant {\n\tmargin-left: 3.0rem;\n\tmargin-right: 10rem;\n}\n\nheader, ul {\n\tdisplay: flex;\n\talign-items: center;\n\tjustify-content: space-between;\n}\n\narticle {\n\tgrid-column: 1 / 13;\n\tgrid-row: 2 / 13;\n\n\tdisplay: grid;\n\tgrid-template-columns: repeat(12, [col-start]1fr) ;\n\tgrid-template-rows: repeat(12, [row-start] 1fr) ;\n}\n\n.heading-description {\n\tgrid-column: 2 / 5;\n\tgrid-row: 4 / 5;\n}\n\narticle > p {\n\tgrid-column: 2 / 7;\n\tgrid-row: 5 / 11;\n}\n\n.footer {\n\tgrid-column: col-start / span 12;\n\tgrid-row: 12 / 13;\n}\n\n/* ------------------------------------------------------------ */\n\n/* --------------------------- Styling ------------------- */\n\n\n/* \nheader, article, footer, .name-restaurant, li {\n\tborder: 5px solid purple\n} */\n\nli {\n\tpadding: 1.5rem;\n\tmargin: 2rem 2rem 2rem 2rem;\n\ttext-align: center;\n\twidth: 4rem;\n\n\tfont-weight: 700;\n\tfont-size: 1.5rem;\n}\n\nli:hover, li:focus {\n\tbackground-color: #FADA5E;\n\tcolor: black;\n}\n\n.name-restaurant {\n\tpadding: 1.5rem;\n\n\twidth: 10rem; \n\n\tfont-weight: 700;\n\tfont-size: 1.5rem;\n}\n\n.heading-description {\n\talign-self: center;\n\tfont-size: 2rem;\n\tfont-weight: 700;\n}\n\nbody {\n\tbackground-position: center;\n\tbackground-size: cover;\n\tbackground-repeat: no-repeat;\n\tcolor: whitesmoke;\n}\n\n.footer {\n\tdisplay: flex;\n\tjustify-content: center;\n\talign-items: center;\n}\n\n\n\n\n/* ------------------------- Font ------------------------------------- */\nbody {\n\tfont-family: 'Roboto';\n}\n\n.name-restaurant {\n\ttext-align: center;\n}", "",{"version":3,"sources":["webpack://./src/style.css"],"names":[],"mappings":"AAGA,wDAAwD;AACxD;;;CAGC;;AAED;;;;;;;;;;;;;CAaC,SAAS;CACT,UAAU;CACV,SAAS;CACT,eAAe;CACf,aAAa;CACb,wBAAwB;AACzB;AACA,gDAAgD;AAChD;;CAEC,cAAc;AACf;AACA;CACC,cAAc;AACf;AACA;CACC,gBAAgB;AACjB;AACA;CACC,YAAY;AACb;AACA;;CAEC,WAAW;CACX,aAAa;AACd;AACA;CACC,yBAAyB;CACzB,iBAAiB;AAClB;AACA,8DAA8D;;;;AAI9D;CACC,aAAa;AACd;;AAEA,6DAA6D;;AAE7D;IACI,aAAa;IACb,kDAAkD;CACrD,gDAAgD;AACjD;;AAEA;CACC,mBAAmB;CACnB,eAAe;AAChB;;AAEA;CACC,mBAAmB;CACnB,mBAAmB;AACpB;;AAEA;CACC,aAAa;CACb,mBAAmB;CACnB,8BAA8B;AAC/B;;AAEA;CACC,mBAAmB;CACnB,gBAAgB;;CAEhB,aAAa;CACb,kDAAkD;CAClD,gDAAgD;AACjD;;AAEA;CACC,kBAAkB;CAClB,eAAe;AAChB;;AAEA;CACC,kBAAkB;CAClB,gBAAgB;AACjB;;AAEA;CACC,gCAAgC;CAChC,iBAAiB;AAClB;;AAEA,iEAAiE;;AAEjE,4DAA4D;;;AAG5D;;;GAGG;;AAEH;CACC,eAAe;CACf,2BAA2B;CAC3B,kBAAkB;CAClB,WAAW;;CAEX,gBAAgB;CAChB,iBAAiB;AAClB;;AAEA;CACC,yBAAyB;CACzB,YAAY;AACb;;AAEA;CACC,eAAe;;CAEf,YAAY;;CAEZ,gBAAgB;CAChB,iBAAiB;AAClB;;AAEA;CACC,kBAAkB;CAClB,eAAe;CACf,gBAAgB;AACjB;;AAEA;CACC,2BAA2B;CAC3B,sBAAsB;CACtB,4BAA4B;CAC5B,iBAAiB;AAClB;;AAEA;CACC,aAAa;CACb,uBAAuB;CACvB,mBAAmB;AACpB;;;;;AAKA,yEAAyE;AACzE;CACC,qBAAqB;AACtB;;AAEA;CACC,kBAAkB;AACnB","sourcesContent":["@import url(\"https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap\");\n\n\n/* -----------------RESET----------------------------- */\n/* http://meyerweb.com/eric/tools/css/reset/ \n   v2.0 | 20110126\n   License: none (public domain)\n*/\n\nhtml, body, div, span, applet, object, iframe,\nh1, h2, h3, h4, h5, h6, p, blockquote, pre,\na, abbr, acronym, address, big, cite, code,\ndel, dfn, em, img, ins, kbd, q, s, samp,\nsmall, strike, strong, sub, sup, tt, var,\nb, u, i, center,\ndl, dt, dd, ol, ul, li,\nfieldset, form, label, legend,\ntable, caption, tbody, tfoot, thead, tr, th, td,\narticle, aside, canvas, details, embed, \nfigure, figcaption, footer, header, hgroup, \nmenu, nav, output, ruby, section, summary,\ntime, mark, audio, video {\n\tmargin: 0;\n\tpadding: 0;\n\tborder: 0;\n\tfont-size: 100%;\n\tfont: inherit;\n\tvertical-align: baseline;\n}\n/* HTML5 display-role reset for older browsers */\narticle, aside, details, figcaption, figure, \nfooter, header, hgroup, menu, nav, section {\n\tdisplay: block;\n}\nbody {\n\tline-height: 1;\n}\nol, ul {\n\tlist-style: none;\n}\nblockquote, q {\n\tquotes: none;\n}\nblockquote:before, blockquote:after,\nq:before, q:after {\n\tcontent: '';\n\tcontent: none;\n}\ntable {\n\tborder-collapse: collapse;\n\tborder-spacing: 0;\n}\n/* --------------------------------------------------------- */\n\n\n\n#content {\n\theight: 100vh;\n}\n\n/* -----------------------------Layout--------------------- */\n\n#content {\n    display: grid;\n    grid-template-columns: repeat(12, [col-start]1fr) ;\n\tgrid-template-rows: repeat(12, [row-start] 1fr) ;\n}\n\nheader {\n\tgrid-column: 1 / 13;\n\tgrid-row: 1 / 2;\n}\n\n.name-restaurant {\n\tmargin-left: 3.0rem;\n\tmargin-right: 10rem;\n}\n\nheader, ul {\n\tdisplay: flex;\n\talign-items: center;\n\tjustify-content: space-between;\n}\n\narticle {\n\tgrid-column: 1 / 13;\n\tgrid-row: 2 / 13;\n\n\tdisplay: grid;\n\tgrid-template-columns: repeat(12, [col-start]1fr) ;\n\tgrid-template-rows: repeat(12, [row-start] 1fr) ;\n}\n\n.heading-description {\n\tgrid-column: 2 / 5;\n\tgrid-row: 4 / 5;\n}\n\narticle > p {\n\tgrid-column: 2 / 7;\n\tgrid-row: 5 / 11;\n}\n\n.footer {\n\tgrid-column: col-start / span 12;\n\tgrid-row: 12 / 13;\n}\n\n/* ------------------------------------------------------------ */\n\n/* --------------------------- Styling ------------------- */\n\n\n/* \nheader, article, footer, .name-restaurant, li {\n\tborder: 5px solid purple\n} */\n\nli {\n\tpadding: 1.5rem;\n\tmargin: 2rem 2rem 2rem 2rem;\n\ttext-align: center;\n\twidth: 4rem;\n\n\tfont-weight: 700;\n\tfont-size: 1.5rem;\n}\n\nli:hover, li:focus {\n\tbackground-color: #FADA5E;\n\tcolor: black;\n}\n\n.name-restaurant {\n\tpadding: 1.5rem;\n\n\twidth: 10rem; \n\n\tfont-weight: 700;\n\tfont-size: 1.5rem;\n}\n\n.heading-description {\n\talign-self: center;\n\tfont-size: 2rem;\n\tfont-weight: 700;\n}\n\nbody {\n\tbackground-position: center;\n\tbackground-size: cover;\n\tbackground-repeat: no-repeat;\n\tcolor: whitesmoke;\n}\n\n.footer {\n\tdisplay: flex;\n\tjustify-content: center;\n\talign-items: center;\n}\n\n\n\n\n/* ------------------------- Font ------------------------------------- */\nbody {\n\tfont-family: 'Roboto';\n}\n\n.name-restaurant {\n\ttext-align: center;\n}"],"sourceRoot":""}]);
+___CSS_LOADER_EXPORT___.push([module.id, "/* -----------------RESET----------------------------- */\n/* http://meyerweb.com/eric/tools/css/reset/ \n   v2.0 | 20110126\n   License: none (public domain)\n*/\n\nhtml, body, div, span, applet, object, iframe,\nh1, h2, h3, h4, h5, h6, p, blockquote, pre,\na, abbr, acronym, address, big, cite, code,\ndel, dfn, em, img, ins, kbd, q, s, samp,\nsmall, strike, strong, sub, sup, tt, var,\nb, u, i, center,\ndl, dt, dd, ol, ul, li,\nfieldset, form, label, legend,\ntable, caption, tbody, tfoot, thead, tr, th, td,\narticle, aside, canvas, details, embed, \nfigure, figcaption, footer, header, hgroup, \nmenu, nav, output, ruby, section, summary,\ntime, mark, audio, video {\n\tmargin: 0;\n\tpadding: 0;\n\tborder: 0;\n\tfont-size: 100%;\n\tfont: inherit;\n\tvertical-align: baseline;\n}\n/* HTML5 display-role reset for older browsers */\narticle, aside, details, figcaption, figure, \nfooter, header, hgroup, menu, nav, section {\n\tdisplay: block;\n}\nbody {\n\tline-height: 1;\n}\nol, ul {\n\tlist-style: none;\n}\nblockquote, q {\n\tquotes: none;\n}\nblockquote:before, blockquote:after,\nq:before, q:after {\n\tcontent: '';\n\tcontent: none;\n}\ntable {\n\tborder-collapse: collapse;\n\tborder-spacing: 0;\n}\n/* --------------------------------------------------------- */\n\n\n\n#content {\n\theight: 100vh;\n}\n\n/* -----------------------------Layout--------------------- */\n\n#content {\n    display: grid;\n    grid-template-columns: repeat(12, [col-start]1fr) ;\n\tgrid-template-rows: repeat(12, [row-start] 1fr) ;\n}\n\nheader {\n\tgrid-column: 1 / 13;\n\tgrid-row: 1 / 2;\n}\n\n.name-restaurant {\n\tmargin-left: 3.0rem;\n\tmargin-right: 10rem;\n}\n\nheader, ul {\n\tdisplay: flex;\n\talign-items: center;\n\tjustify-content: space-between;\n}\n\narticle {\n\tgrid-column: 1 / 13;\n\tgrid-row: 2 / 13;\n\n\tdisplay: grid;\n\tgrid-template-columns: repeat(12, [col-start]1fr) ;\n\tgrid-template-rows: repeat(12, [row-start] 1fr) ;\n}\n\n.heading-description {\n\tgrid-column: 2 / 5;\n\tgrid-row: 4 / 5;\n}\n\narticle > p {\n\tgrid-column: 2 / 7;\n\tgrid-row: 5 / 11;\n}\n\n.footer {\n\tgrid-column: col-start / span 12;\n\tgrid-row: 12 / 13;\n}\n\n.card-container {\n\tgrid-column: 5 / 9;\t\n}\n\n/* ------------------------------------------------------------ */\n\n/* --------------------------- Styling ------------------- */\n\n\n/* \nheader, article, footer, .name-restaurant, li {\n\tborder: 5px solid purple\n} */\n\na {\n\tpadding: 1.5rem;\n\tmargin: 2rem 2rem 2rem 2rem;\n\ttext-align: center;\n\twidth: 4rem;\n\n\tfont-weight: 700;\n\tfont-size: 1.5rem;\n}\n\na:hover, a:focus {\n\tbackground-color: #FADA5E;\n\tcolor: black;\n}\n\n.name-restaurant {\n\tpadding: 1.5rem;\n\n\twidth: 10rem; \n\n\tfont-weight: 700;\n\tfont-size: 1.5rem;\n}\n\n.heading-description {\n\talign-self: center;\n\tfont-size: 2rem;\n\tfont-weight: 700;\n}\n\nbody {\n\tbackground-position: center;\n\tbackground-size: cover;\n\tbackground-repeat: no-repeat;\n\tcolor: whitesmoke;\n}\n\n.footer {\n\tdisplay: flex;\n\tjustify-content: center;\n\talign-items: center;\n}\n\n.card-container > div {\n\tborder: 3px solid purple;\n\tdisplay: flex;\n\tflex-direction: column;\n\talign-items: center;\n}\n\n\n/* ------------------------- Font ------------------------------------- */\nbody {\n\tfont-family: 'Roboto';\n}\n\n.name-restaurant {\n\ttext-align: center;\n}", "",{"version":3,"sources":["webpack://./src/style.css"],"names":[],"mappings":"AAGA,wDAAwD;AACxD;;;CAGC;;AAED;;;;;;;;;;;;;CAaC,SAAS;CACT,UAAU;CACV,SAAS;CACT,eAAe;CACf,aAAa;CACb,wBAAwB;AACzB;AACA,gDAAgD;AAChD;;CAEC,cAAc;AACf;AACA;CACC,cAAc;AACf;AACA;CACC,gBAAgB;AACjB;AACA;CACC,YAAY;AACb;AACA;;CAEC,WAAW;CACX,aAAa;AACd;AACA;CACC,yBAAyB;CACzB,iBAAiB;AAClB;AACA,8DAA8D;;;;AAI9D;CACC,aAAa;AACd;;AAEA,6DAA6D;;AAE7D;IACI,aAAa;IACb,kDAAkD;CACrD,gDAAgD;AACjD;;AAEA;CACC,mBAAmB;CACnB,eAAe;AAChB;;AAEA;CACC,mBAAmB;CACnB,mBAAmB;AACpB;;AAEA;CACC,aAAa;CACb,mBAAmB;CACnB,8BAA8B;AAC/B;;AAEA;CACC,mBAAmB;CACnB,gBAAgB;;CAEhB,aAAa;CACb,kDAAkD;CAClD,gDAAgD;AACjD;;AAEA;CACC,kBAAkB;CAClB,eAAe;AAChB;;AAEA;CACC,kBAAkB;CAClB,gBAAgB;AACjB;;AAEA;CACC,gCAAgC;CAChC,iBAAiB;AAClB;;AAEA;CACC,kBAAkB;AACnB;;AAEA,iEAAiE;;AAEjE,4DAA4D;;;AAG5D;;;GAGG;;AAEH;CACC,eAAe;CACf,2BAA2B;CAC3B,kBAAkB;CAClB,WAAW;;CAEX,gBAAgB;CAChB,iBAAiB;AAClB;;AAEA;CACC,yBAAyB;CACzB,YAAY;AACb;;AAEA;CACC,eAAe;;CAEf,YAAY;;CAEZ,gBAAgB;CAChB,iBAAiB;AAClB;;AAEA;CACC,kBAAkB;CAClB,eAAe;CACf,gBAAgB;AACjB;;AAEA;CACC,2BAA2B;CAC3B,sBAAsB;CACtB,4BAA4B;CAC5B,iBAAiB;AAClB;;AAEA;CACC,aAAa;CACb,uBAAuB;CACvB,mBAAmB;AACpB;;AAEA;CACC,wBAAwB;CACxB,aAAa;CACb,sBAAsB;CACtB,mBAAmB;AACpB;;;AAGA,yEAAyE;AACzE;CACC,qBAAqB;AACtB;;AAEA;CACC,kBAAkB;AACnB","sourcesContent":["@import url(\"https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap\");\n\n\n/* -----------------RESET----------------------------- */\n/* http://meyerweb.com/eric/tools/css/reset/ \n   v2.0 | 20110126\n   License: none (public domain)\n*/\n\nhtml, body, div, span, applet, object, iframe,\nh1, h2, h3, h4, h5, h6, p, blockquote, pre,\na, abbr, acronym, address, big, cite, code,\ndel, dfn, em, img, ins, kbd, q, s, samp,\nsmall, strike, strong, sub, sup, tt, var,\nb, u, i, center,\ndl, dt, dd, ol, ul, li,\nfieldset, form, label, legend,\ntable, caption, tbody, tfoot, thead, tr, th, td,\narticle, aside, canvas, details, embed, \nfigure, figcaption, footer, header, hgroup, \nmenu, nav, output, ruby, section, summary,\ntime, mark, audio, video {\n\tmargin: 0;\n\tpadding: 0;\n\tborder: 0;\n\tfont-size: 100%;\n\tfont: inherit;\n\tvertical-align: baseline;\n}\n/* HTML5 display-role reset for older browsers */\narticle, aside, details, figcaption, figure, \nfooter, header, hgroup, menu, nav, section {\n\tdisplay: block;\n}\nbody {\n\tline-height: 1;\n}\nol, ul {\n\tlist-style: none;\n}\nblockquote, q {\n\tquotes: none;\n}\nblockquote:before, blockquote:after,\nq:before, q:after {\n\tcontent: '';\n\tcontent: none;\n}\ntable {\n\tborder-collapse: collapse;\n\tborder-spacing: 0;\n}\n/* --------------------------------------------------------- */\n\n\n\n#content {\n\theight: 100vh;\n}\n\n/* -----------------------------Layout--------------------- */\n\n#content {\n    display: grid;\n    grid-template-columns: repeat(12, [col-start]1fr) ;\n\tgrid-template-rows: repeat(12, [row-start] 1fr) ;\n}\n\nheader {\n\tgrid-column: 1 / 13;\n\tgrid-row: 1 / 2;\n}\n\n.name-restaurant {\n\tmargin-left: 3.0rem;\n\tmargin-right: 10rem;\n}\n\nheader, ul {\n\tdisplay: flex;\n\talign-items: center;\n\tjustify-content: space-between;\n}\n\narticle {\n\tgrid-column: 1 / 13;\n\tgrid-row: 2 / 13;\n\n\tdisplay: grid;\n\tgrid-template-columns: repeat(12, [col-start]1fr) ;\n\tgrid-template-rows: repeat(12, [row-start] 1fr) ;\n}\n\n.heading-description {\n\tgrid-column: 2 / 5;\n\tgrid-row: 4 / 5;\n}\n\narticle > p {\n\tgrid-column: 2 / 7;\n\tgrid-row: 5 / 11;\n}\n\n.footer {\n\tgrid-column: col-start / span 12;\n\tgrid-row: 12 / 13;\n}\n\n.card-container {\n\tgrid-column: 5 / 9;\t\n}\n\n/* ------------------------------------------------------------ */\n\n/* --------------------------- Styling ------------------- */\n\n\n/* \nheader, article, footer, .name-restaurant, li {\n\tborder: 5px solid purple\n} */\n\na {\n\tpadding: 1.5rem;\n\tmargin: 2rem 2rem 2rem 2rem;\n\ttext-align: center;\n\twidth: 4rem;\n\n\tfont-weight: 700;\n\tfont-size: 1.5rem;\n}\n\na:hover, a:focus {\n\tbackground-color: #FADA5E;\n\tcolor: black;\n}\n\n.name-restaurant {\n\tpadding: 1.5rem;\n\n\twidth: 10rem; \n\n\tfont-weight: 700;\n\tfont-size: 1.5rem;\n}\n\n.heading-description {\n\talign-self: center;\n\tfont-size: 2rem;\n\tfont-weight: 700;\n}\n\nbody {\n\tbackground-position: center;\n\tbackground-size: cover;\n\tbackground-repeat: no-repeat;\n\tcolor: whitesmoke;\n}\n\n.footer {\n\tdisplay: flex;\n\tjustify-content: center;\n\talign-items: center;\n}\n\n.card-container > div {\n\tborder: 3px solid purple;\n\tdisplay: flex;\n\tflex-direction: column;\n\talign-items: center;\n}\n\n\n/* ------------------------- Font ------------------------------------- */\nbody {\n\tfont-family: 'Roboto';\n}\n\n.name-restaurant {\n\ttext-align: center;\n}"],"sourceRoot":""}]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
@@ -531,6 +531,83 @@ module.exports = styleTagTransform;
 
 /***/ }),
 
+/***/ "./src/food.js":
+/*!*********************!*\
+  !*** ./src/food.js ***!
+  \*********************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "food": () => (/* binding */ food)
+/* harmony export */ });
+/* harmony import */ var _utility__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./utility */ "./src/utility.js");
+// create food cards
+
+
+
+const food = () => {
+    // card container
+    const cardContainer = (0,_utility__WEBPACK_IMPORTED_MODULE_0__.domObjs)('card-container', 'div', '.description');
+
+    // card-burger 1
+    const card1 = (0,_utility__WEBPACK_IMPORTED_MODULE_0__.domObjs)('card-1', 'div', '.card-container');
+    const h1Card = (0,_utility__WEBPACK_IMPORTED_MODULE_0__.domObjs)('h1-card', 'h1', '.card-1', 'BBQ Burger');
+
+
+};
+
+
+
+/***/ }),
+
+/***/ "./src/headerFooter.js":
+/*!*****************************!*\
+  !*** ./src/headerFooter.js ***!
+  \*****************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "createFooter": () => (/* binding */ createFooter),
+/* harmony export */   "createHeader": () => (/* binding */ createHeader)
+/* harmony export */ });
+/* harmony import */ var _utility_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./utility.js */ "./src/utility.js");
+// create the header
+
+
+
+
+const createHeader = () => {
+        // header
+    const header = (0,_utility_js__WEBPACK_IMPORTED_MODULE_0__.domObjs)('header', 'header', '#content');
+    // name of restaurant
+    const restaurantName = (0,_utility_js__WEBPACK_IMPORTED_MODULE_0__.domObjs)('name-restaurant', 'div', '.header', 'A La Plancha');
+    // navigation
+    const nav = (0,_utility_js__WEBPACK_IMPORTED_MODULE_0__.domObjs)('navigation', 'nav', '.header');
+    //ul 
+    const navList = (0,_utility_js__WEBPACK_IMPORTED_MODULE_0__.domObjs)('nav-list', 'ul', '.navigation');
+    // list elements
+    const linstOne = (0,_utility_js__WEBPACK_IMPORTED_MODULE_0__.domObjs)('list-1', 'li', '.nav-list');
+    const lintTwo = (0,_utility_js__WEBPACK_IMPORTED_MODULE_0__.domObjs)('list-2', 'li', '.nav-list');
+    const lintTHree = (0,_utility_js__WEBPACK_IMPORTED_MODULE_0__.domObjs)('list-3', 'li', '.nav-list');
+    // link elements
+    const link1 = (0,_utility_js__WEBPACK_IMPORTED_MODULE_0__.linkElement)('home', 'a', '.list-1', 'Home'); 
+    const link2 = (0,_utility_js__WEBPACK_IMPORTED_MODULE_0__.linkElement)('food', 'a', '.list-2', 'Food'); 
+    const link3 = (0,_utility_js__WEBPACK_IMPORTED_MODULE_0__.linkElement)('drinks', 'a', '.list-3', 'Drinks'); 
+};
+
+const createFooter = () => {
+        // footer
+        const footer = (0,_utility_js__WEBPACK_IMPORTED_MODULE_0__.domObjs)('footer', 'footer', '#content')
+        const footerTxt = (0,_utility_js__WEBPACK_IMPORTED_MODULE_0__.domObjs)('footer-txt', 'div', 'footer', 'JRFM')
+}
+
+
+
+
+/***/ }),
+
 /***/ "./src/home.js":
 /*!*********************!*\
   !*** ./src/home.js ***!
@@ -539,90 +616,128 @@ module.exports = styleTagTransform;
 
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "createPage": () => (/* binding */ createPage),
+/* harmony export */   "home": () => (/* binding */ home),
 /* harmony export */   "testHome": () => (/* binding */ testHome)
 /* harmony export */ });
 /* harmony import */ var _images_background_jpg__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./images/background.jpg */ "./src/images/background.jpg");
+/* harmony import */ var _utility_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./utility.js */ "./src/utility.js");
+/* harmony import */ var _headerFooter__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./headerFooter */ "./src/headerFooter.js");
 
 
 
 
-const createPage = (() => {
 
-    const createDomEle = (nameClass, typeOfElement, parent) =>  {   
-        // select parent element
-        const parentElement = document.querySelector(parent);
-        console.log(parentElement);
-        // create element
-        const createDomElement = document.createElement(typeOfElement);
-        createDomElement.className = nameClass;
-        parentElement.appendChild(createDomElement);
-        return 
-    
-    };
-    
-    const domObjs = (nameClass, typeOfElement, parent, txt) =>  {  
-        // create a dom element 
-    
-        // select parent element
-        const parentElement = document.querySelector(parent);
-        
-        // create element
-        const createDomElement = document.createElement(typeOfElement);
-        createDomElement.className = nameClass;
-        createDomElement.textContent= txt;
-        parentElement.appendChild(createDomElement);
-    };
-    
-    const linkElement = (nameClass, typeOfElement, parent, txt) => {
-        // this function creates link dom elements
-        domObjs(nameClass, typeOfElement, parent, txt)
-        const link = document.querySelector(nameClass);
-        
-
-    }
-
+const home = (() => {
     // create starting page
 
-    // header
-    const header = domObjs('header', 'header', '#content');
-    // name of restaurant
-    const restaurantName = domObjs('name-restaurant', 'div', '.header', 'A La Plancha');
-    // navigation
-    const nav = domObjs('navigation', 'nav', '.header');
-    //ul 
-    const navList = domObjs('nav-list', 'ul', '.navigation');
-    // list elements
-    const linstOne = domObjs('list-1', 'li', '.nav-list');
-    const lintTwo = domObjs('list-2', 'li', '.nav-list');
-    const lintTHree = domObjs('list-3', 'li', '.nav-list');
-    // link elements
-    const link1 = linkElement('link-1', 'a', '.list-1', 'Home'); 
-    const link2 = linkElement('link-2', 'a', '.list-2', 'Food'); 
-    const link3 = linkElement('link-3', 'a', '.list-3', 'Drinks'); 
+    //createHeader();
 
     // main content
     // description of restaurant
-    const description = domObjs('description', 'article', '#content');
+    const description = (0,_utility_js__WEBPACK_IMPORTED_MODULE_1__.domObjs)('description', 'article', '#content');
     //heading text
-    const headingDescription = domObjs('heading-description', 'h1', '.description', 'A La Plancha');
+    const headingDescription = (0,_utility_js__WEBPACK_IMPORTED_MODULE_1__.domObjs)('heading-description', 'h1', '.description', 'A La Plancha');
     // text article
     let textOfPara = 'Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam '
-    const paraTxt = domObjs('text-para', 'p', '.description', textOfPara);
+    const paraTxt = (0,_utility_js__WEBPACK_IMPORTED_MODULE_1__.domObjs)('text-para', 'p', '.description', textOfPara);
 
-    // footer
-    const footer = domObjs('footer', 'footer', '#content')
-    const footerTxt = domObjs('footer-txt', 'div', 'footer', 'JRFM')
+
     
     // set background image
     const content = document.querySelector('body');
     content.style.backgroundImage = `url(${_images_background_jpg__WEBPACK_IMPORTED_MODULE_0__})`;
-    console.log(content)
+    //console.log(content)
     //content.appendChild(backgroundImg);
 });
 
 
 const testHome = () => console.log('home-module')
+
+
+
+/***/ }),
+
+/***/ "./src/utility.js":
+/*!************************!*\
+  !*** ./src/utility.js ***!
+  \************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "domObjs": () => (/* binding */ domObjs),
+/* harmony export */   "linkElement": () => (/* binding */ linkElement)
+/* harmony export */ });
+/* harmony import */ var _food__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./food */ "./src/food.js");
+/* harmony import */ var _home__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./home */ "./src/home.js");
+// this module contains functions that create and manipulate dom elements
+
+
+
+
+
+// 
+const domObjs = (nameClass, typeOfElement, parent, txt) =>  {  
+    // create a dom element 
+
+    // select parent element
+    const parentElement = document.querySelector(parent);
+    
+    // create element
+    const createDomElement = document.createElement(typeOfElement);
+    createDomElement.className = nameClass;
+    createDomElement.textContent= txt;
+    parentElement.appendChild(createDomElement);
+};
+// replace following function
+const linkElement = (nameClass, typeOfElement, parent, txt) => {
+    // this function creates link dom elements
+    domObjs(nameClass, typeOfElement, parent, txt)
+    console.log(nameClass)
+    const link = document.querySelector(`.${nameClass}`);
+    console.log(link)
+    link.addEventListener('click', () => {
+        deleteAllChildren('content');
+    })
+    // a second eventlistener needs to be created because the e-event argument 
+    // has to be passed 
+    // it was not possible to incldue the function call in above event listener
+    link.addEventListener('click',createDemandedPage)
+    };
+
+
+function testfunc () {
+    
+    console.log('testfunc');
+}
+
+const deleteAllChildren = (parentNode) => {
+    // delete all children from parent node
+    // is called when user clicks on navigation buttons
+    const contentNode = document.querySelector('article')
+    //console.log(contentNode)
+    contentNode.innerHTML = '';
+}
+
+//create demanded page
+const createDemandedPage = (e) => { 
+    // create the page the user wants to see next
+    const nameOfPage = e.target.className;
+    console.log(nameOfPage);
+    if (nameOfPage === 'food') {
+        (0,_food__WEBPACK_IMPORTED_MODULE_0__.food)();
+    } else if (nameOfPage === 'home') {
+        (0,_home__WEBPACK_IMPORTED_MODULE_1__.home)();
+    } else if (nameOfPage === 'drinks') {
+        drinks();
+    }
+    
+
+    //testfunc();
+}   
+
+
+//const button = ()
 
 
 
@@ -752,16 +867,27 @@ var __webpack_exports__ = {};
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _style_css__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./style.css */ "./src/style.css");
 /* harmony import */ var _home_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./home.js */ "./src/home.js");
+/* harmony import */ var _food_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./food.js */ "./src/food.js");
+/* harmony import */ var _headerFooter_js__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./headerFooter.js */ "./src/headerFooter.js");
 
 
 
 
 
 
-(0,_home_js__WEBPACK_IMPORTED_MODULE_1__.createPage)();
-(0,_home_js__WEBPACK_IMPORTED_MODULE_1__.testHome)();
+
+
+
+
+(() => {
+    (0,_home_js__WEBPACK_IMPORTED_MODULE_1__.testHome)();
+    (0,_home_js__WEBPACK_IMPORTED_MODULE_1__.home)();
+    (0,_headerFooter_js__WEBPACK_IMPORTED_MODULE_3__.createHeader)();
+    (0,_headerFooter_js__WEBPACK_IMPORTED_MODULE_3__.createFooter)();
+    //testHome();
+})();
 })();
 
 /******/ })()
 ;
-//# sourceMappingURL=bundle4e172c6d70af8b577645.js.map
+//# sourceMappingURL=bundle3ca4bcd6d56c57392092.js.map
