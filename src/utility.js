@@ -1,4 +1,5 @@
 // this module contains functions that create and manipulate dom elements
+// 
 import { food } from "./food";
 import { home } from "./home";
 
@@ -17,13 +18,59 @@ const domObjs = (nameClass, typeOfElement, parent, txt) =>  {
     createDomElement.textContent= txt;
     parentElement.appendChild(createDomElement);
 };
-// replace following function
+
+const domObj = () => {
+    
+
+    const createDomObject = (nameClass, typeOfElement, parent, txt)=> {
+        // select parent element
+        const parentElement = document.querySelector(parent);
+    
+        // create element
+        const createDomElement = document.createElement(typeOfElement);
+        createDomElement.className = nameClass;
+        createDomElement.textContent= txt;
+        parentElement.appendChild(createDomElement);
+        console.log('createDomObject')
+        console.log('inside createDomObject');
+        
+    }
+    console.log('createDomObject')
+    return {createDomObject};
+}
+
+const foodCardFac = (nameClass, typeOfElement, parent, txt) =>  {  
+    // create a dom element 
+    console.log('foodCardFac')
+    // select parent element
+    // const parentElement = document.querySelector(parent);
+    // //create card with basic information
+    // const createDomElement = document.createElement(typeOfElement);
+    // createDomElement.className = nameClass;
+    // createDomElement.textContent= txt;
+    // parentElement.appendChild(createDomElement);
+
+
+    const {createDomObject} = domObj(nameClass, typeOfElement, parent, txt)
+
+
+    // select created html-element to return it to the caller
+    // Check if you can manipulate the rerturned object directly
+    const creDomObj = document.querySelector(`.${nameClass}`);
+    console.log(creDomObj);
+    return { createDomObject, creDomObj };
+};
+
+
+
+
+// create links to the differernt pages
 const linkElement = (nameClass, typeOfElement, parent, txt) => {
     // this function creates link dom elements
     domObjs(nameClass, typeOfElement, parent, txt)
-    console.log(nameClass)
+    //console.log(nameClass)
     const link = document.querySelector(`.${nameClass}`);
-    console.log(link)
+    //console.log(link)
     link.addEventListener('click', () => {
         deleteAllChildren('content');
     })
@@ -51,7 +98,7 @@ const deleteAllChildren = (parentNode) => {
 const createDemandedPage = (e) => { 
     // create the page the user wants to see next
     const nameOfPage = e.target.className;
-    console.log(nameOfPage);
+    //console.log(nameOfPage);
     if (nameOfPage === 'food') {
         food();
     } else if (nameOfPage === 'home') {
@@ -69,5 +116,6 @@ const createDemandedPage = (e) => {
 
 export {
     domObjs,
-    linkElement
+    foodCardFac,
+    linkElement,
 }

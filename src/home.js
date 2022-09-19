@@ -27,7 +27,7 @@ const home = (() => {
 });
 
 
-const testHome = () => console.log('home-module')
+const testHome = () => console.log()
 
 export {
     testHome,
