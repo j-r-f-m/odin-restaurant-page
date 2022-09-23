@@ -42,23 +42,13 @@ const domObj = () => {
 const foodCardFac = (nameClass, typeOfElement, parent, txt) =>  {  
     // create a dom element 
     console.log('foodCardFac')
-    // select parent element
-    // const parentElement = document.querySelector(parent);
-    // //create card with basic information
-    // const createDomElement = document.createElement(typeOfElement);
-    // createDomElement.className = nameClass;
-    // createDomElement.textContent= txt;
-    // parentElement.appendChild(createDomElement);
+
+    // 
+    // inherit method from "domObj()"
+    const {createDomObject} = domObj(nameClass, typeOfElement, parent, txt);
 
 
-    const {createDomObject} = domObj(nameClass, typeOfElement, parent, txt)
-
-
-    // select created html-element to return it to the caller
-    // Check if you can manipulate the rerturned object directly
-    const creDomObj = document.querySelector(`.${nameClass}`);
-    console.log(creDomObj);
-    return { createDomObject, creDomObj };
+    return { createDomObject };
 };
 
 
@@ -116,6 +106,7 @@ const createDemandedPage = (e) => {
 
 export {
     domObjs,
+    domObj,
     foodCardFac,
     linkElement,
 }
