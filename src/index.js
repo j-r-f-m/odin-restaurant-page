@@ -1,15 +1,11 @@
 import './style.css';
 
-import { testHome, home } from './home.js';
-import { foodPage } from './food.js';
+import { home } from './home.js';
 import { createHeader, createFooter } from './headerFooter.js'
-
-
-
-
+import { backGround } from './utility.js';
 
 (() => {
-    testHome();
+    backGround();
     home();
     createHeader();
     createFooter();

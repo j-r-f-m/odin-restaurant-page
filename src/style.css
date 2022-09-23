@@ -91,6 +91,11 @@ article {
 	grid-template-rows: repeat(12, [row-start] 1fr) ;
 }
 
+.description-container {
+	grid-column: 2 / 9;
+	grid-row: 4;
+}
+
 .heading-description {
 	grid-column: 2 / 5;
 	grid-row: 4 / 5;
@@ -144,10 +149,18 @@ a:hover, a:focus {
 	font-size: 1.5rem;
 }
 
+.description-container {
+	padding: 1rem;
+	background-color: black;
+	opacity: 0.6;
+	min-width: 10rem;
+}
+
 .heading-description {
 	align-self: center;
 	font-size: 2rem;
 	font-weight: 700;
+	margin-bottom: 1.5rem;
 }
 
 body {
@@ -181,11 +194,18 @@ body {
 
 .food-desc {
 	margin: 1rem 0 1rem 0;
-	margin-top: 2rem; 
+	margin-top: 1rem; 
 	
 }
 
-.food-header {
+.drink-desc {
+	margin: 1rem 0 1rem 0;
+	margin-top: .25rem; 
+	
+}
+
+
+.food-header, .drink-header {
 	
 	font-weight: 700;
 

@@ -1,35 +1,30 @@
-import Background from './images/background.jpg'
-import { domObjs, linkElement} from './utility.js'
-import { createHeader } from './headerFooter';
+import { domObj } from './utility.js'
+
 
 
 const home = (() => {
-    // create starting page
+    const descr = domObj();
+    descr.createDomObject('description', 'article', '#content');
 
-    //createHeader();
+    // container
+    const descrCon = domObj();
+    descrCon.createDomObject('description-container', 'div', '.description');
 
-    // main content
-    // description of restaurant
-    const description = domObjs('description', 'article', '#content');
     //heading text
-    const headingDescription = domObjs('heading-description', 'h1', '.description', 'A La Plancha');
-    // text article
-    let textOfPara = 'Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam '
-    const paraTxt = domObjs('text-para', 'p', '.description', textOfPara);
-
-
+    const headDescr = domObj();
+    headDescr.createDomObject('heading-description', 'h1', '.description-container', 'A La Plancha');
     
-    // set background image
-    const content = document.querySelector('body');
-    content.style.backgroundImage = `url(${Background})`;
-    //console.log(content)
-    //content.appendChild(backgroundImg);
+    // text article
+    let textOfPara = 'Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam '
+    const txtDescr = domObj();
+    txtDescr.createDomObject('text-para', 'p', '.description-container', textOfPara)
+
 });
 
 
-const testHome = () => console.log()
+//const testHome = () => console.log()
 
 export {
-    testHome,
+    //testHome,
     home
 }

@@ -1,5 +1,5 @@
 // create food cards
-import { domObjs, domObj, linkElement, foodCardFac } from "./utility";
+import { domObj, foodCardFac } from "./utility";
 
 
 const food = () => {
@@ -42,10 +42,6 @@ const food = () => {
     foodCard6.createDomObject('card-6', 'div', '.card-container');
     foodCard6.createDomObject('food-header', 'p', '.card-6', 'Wald Burger - 11,50 €');
     foodCard6.createDomObject('food-desc', 'p', '.card-6', 'Saftiges Rindfleisch mit Rucola und Lollo-Bianco-Salat, knusprigen Speck, angeschwenkten Zwiebeln und Champignons, Barbecue-Sosse und Meerrettich-Sosse');
-
-    console.log(foodCard1)
-    
-
 };
 
 export { food };

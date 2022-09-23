@@ -2,8 +2,14 @@
 // 
 import { food } from "./food";
 import { home } from "./home";
+import { drinks } from "./drinks";
+import Background from './images/background.jpg'
 
-
+// background Img
+const backGround = () => {
+    const content = document.querySelector('body');
+    content.style.backgroundImage = `url(${Background})`;
+}
 
 // 
 const domObjs = (nameClass, typeOfElement, parent, txt) =>  {  
@@ -31,19 +37,14 @@ const domObj = () => {
         createDomElement.className = nameClass;
         createDomElement.textContent= txt;
         parentElement.appendChild(createDomElement);
-        console.log('createDomObject')
-        console.log('inside createDomObject');
-        
     }
-    console.log('createDomObject')
+
     return {createDomObject};
 }
 
 const foodCardFac = (nameClass, typeOfElement, parent, txt) =>  {  
     // create a dom element 
-    console.log('foodCardFac')
 
-    // 
     // inherit method from "domObj()"
     const {createDomObject} = domObj(nameClass, typeOfElement, parent, txt);
 
@@ -58,6 +59,7 @@ const foodCardFac = (nameClass, typeOfElement, parent, txt) =>  {
 const linkElement = (nameClass, typeOfElement, parent, txt) => {
     // this function creates link dom elements
     domObjs(nameClass, typeOfElement, parent, txt)
+    
     //console.log(nameClass)
     const link = document.querySelector(`.${nameClass}`);
     //console.log(link)
@@ -109,4 +111,5 @@ export {
     domObj,
     foodCardFac,
     linkElement,
+    backGround
 }
